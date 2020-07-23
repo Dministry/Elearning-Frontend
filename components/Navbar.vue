@@ -6,7 +6,7 @@
         <!-- <i class="fas fa-bars"></i> -->
         <font-awesome-icon :icon="['fas', 'bars']"/>
       </label>
-      <label for="logo" class="logo">E-LOGO</label>
+      <label for="logo" class="logo">MATHAGE</label>
       <ul>
         <li><nuxt-link class="" to="/">Home</nuxt-link></li>
         <li><nuxt-link to="/contact">Contact</nuxt-link></li>
@@ -24,7 +24,7 @@ export default {};
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 
 nav {
   height: 80%;
@@ -33,7 +33,7 @@ nav {
 label.logo {
   color: #6b62fd;
   font-size: 35px;
-  font-family: montserrat;
+  font-family: Pacifico;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
@@ -121,6 +121,7 @@ a:hover {
   }
   #check:checked ~ ul {
     left: 0;
+    z-index: 1;
   }
 }
 </style>

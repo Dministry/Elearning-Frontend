@@ -1,6 +1,5 @@
 <template>
   <div>
-      <label for="logo" class="logo">MATHAGE</label>
     <!-- Header container (Section) -->
     <section>
       <!-- Header Image -->

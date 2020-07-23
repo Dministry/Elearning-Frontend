@@ -2,10 +2,7 @@
 <div id="body">
     <div ></div>
       <Navbar />
-     
-    
-      
-  
+    <img src="../assets/images/11068-bubble-menu.gif" alt="">
     </div>
 </template>
 
@@ -16,22 +13,11 @@ export default {
 </script>
 
 <style scoped>
-body{
-    background: #F2F2F2
+@media (max-width: 858px) {
+
+img {
+    overflow: hidden;
+    width: 100%;
 }
-.nav{
-    position: absolute;
-width: 1440px;
-height: 390px;
-left: 0px;
-top: 0px;
-
-background: linear-gradient(180deg, rgba(203, 200, 200, 0.5) 0%, rgba(196, 196, 196, 0) 100%);
-}
-#content{
-margin: 5% 15% 10%;
-
-
-
 }
 </style>
