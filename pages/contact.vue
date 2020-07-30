@@ -2,7 +2,10 @@
 <div id="body">
     <div ></div>
       <Navbar />
-    <img src="../assets/images/11068-bubble-menu.gif" alt="">
+    <Contact />
+    <Footer />
+      
+  
     </div>
 </template>
 
@@ -14,7 +17,16 @@ export default {
 
 <style scoped>
 @media (max-width: 858px) {
-
+#body{
+       background: linear-gradient(to right, rgb(165, 214, 243),rgb(194, 224, 238),rgb(217, 233, 236));
+}
+.nav{
+    position: absolute;
+width: 1440px;
+height: 390px;
+left: 0px;
+top: 0px;
+}
 img {
     overflow: hidden;
     width: 100%;
